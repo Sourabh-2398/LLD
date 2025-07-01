@@ -1,9 +1,9 @@
 package SOLID;
 
 // Main class to run the example
-public class Main {
+public class OrderPlacementSystem {
     public static void main(String[] args) {
-        Order order = new Order(100.0);
+        Order order = new Order(1000.0);
         PaymentMethod payment = new CreditCardPayment();
         Printer printer = new OrderPrinter();
         Repository repository = new OrderRepository();

@@ -1,6 +1,6 @@
-package DesignPattern.Behavioural.Observer.notifyme;
+package DesignPattern.Behavioural.Observer.observer;
 
-import DesignPattern.Behavioural.Observer.observer.Observer;
+import DesignPattern.Behavioural.Observer.observable.Product;
 
 public class SMSObserver implements Observer<Product> {
     private String phoneNumber;

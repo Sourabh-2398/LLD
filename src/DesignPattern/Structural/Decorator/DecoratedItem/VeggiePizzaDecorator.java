@@ -1,4 +1,8 @@
-// VeggiePizzaDecorator.java
+package DesignPattern.Structural.Decorator.DecoratedItem;
+
+
+import DesignPattern.Structural.Decorator.BaseItem.Pizza;
+
 public class VeggiePizzaDecorator extends PizzaDecorator {
     public VeggiePizzaDecorator(Pizza pizza) {
         super(pizza);
@@ -14,4 +18,3 @@ public class VeggiePizzaDecorator extends PizzaDecorator {
         return pizza.getCost() + 2.0;
     }
 }
-

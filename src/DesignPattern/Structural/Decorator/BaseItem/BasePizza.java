@@ -1,4 +1,5 @@
-// BasePizza.java
+package DesignPattern.Structural.Decorator.BaseItem;
+
 public class BasePizza implements Pizza {
     @Override
     public String getDescription() {
@@ -10,4 +11,3 @@ public class BasePizza implements Pizza {
         return 5.0;
     }
 }
-

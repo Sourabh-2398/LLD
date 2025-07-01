@@ -1,9 +1,10 @@
-package DesignPattern.Behavioural.Observer.notifyme;
+package DesignPattern.Behavioural.Observer.observer;
 
-import DesignPattern.Behavioural.Observer.observer.Observer;
+import DesignPattern.Behavioural.Observer.observable.Product;
 
 public class EmailObserver implements Observer<Product> {
     private String email;
+
 
     public EmailObserver(String email) {
         this.email = email;

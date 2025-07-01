@@ -1,7 +1,7 @@
-package DesignPattern.Behavioural.Observer.notifyme;
+package DesignPattern.Behavioural.Observer.observable;
 
-import DesignPattern.Behavioural.Observer.observer.Observable;
 import DesignPattern.Behavioural.Observer.observer.Observer;
+
 import java.util.ArrayList;
 import java.util.List;
 

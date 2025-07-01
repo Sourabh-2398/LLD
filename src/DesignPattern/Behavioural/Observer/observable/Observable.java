@@ -1,4 +1,6 @@
-package DesignPattern.Behavioural.Observer.observer;
+package DesignPattern.Behavioural.Observer.observable;
+
+import DesignPattern.Behavioural.Observer.observer.Observer;
 
 public interface Observable<T> {
     void addObserver(Observer<T> observer);
